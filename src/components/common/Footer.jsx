@@ -24,7 +24,7 @@ render() {
                                 <div className="single-footer">
                                     <h4 className="logo">
                                         <a href="#home">
-                                            Axo<span>lot</span>
+                                            My<span>Buy</span>CBD
                                         </a>
                                     </h4>
                                     <p>{this.props.siteDescription}</p>

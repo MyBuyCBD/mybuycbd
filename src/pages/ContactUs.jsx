@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-import Subscribe from "../components/common/Subscribe";
 import { ValidationForm, TextInput } from "react-bootstrap4-form-validation";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
@@ -254,8 +253,6 @@ class ContactUS extends Component {
                     </section>
                     {/* Start Contact Area */}
                 </div>
-                {/* Subscribe: src/components/common/Subscribe */}
-                <Subscribe />
                 {/* Footer: src/components/common/Footer */}
                 <Footer pageName="contact" />
             </React.Fragment>
